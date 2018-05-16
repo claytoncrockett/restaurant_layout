@@ -17,9 +17,10 @@
 }
 #main{
   display: flex;
-  height: 90%;
+  height: 79%;
   width: 100%;
   background-image: url(dragonpic.jpg);
+  opacity: .4;
   
 }
 
