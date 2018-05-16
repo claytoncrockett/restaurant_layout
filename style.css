@@ -1,0 +1,42 @@
+#title{
+  display: flex;
+  justify-content: center;
+  background-image: url(flames.jpg);
+  background-repeat: repeat-x;
+  background-size: 17%;
+  background-blend-mode: saturation;
+  color: #39FF14
+}
+#nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+
+}
+#main{
+  display: flex;
+  height: 90%;
+  width: 100%;
+  background-image: url(dragonpic.jpg);
+  
+}
+
+#menu{
+  font-size: 20px
+
+}
+#contact{
+  font-size: 20px
+
+}
+#catering{
+  font-size: 20px
+
+}
+#about{
+  font-size: 20px
+
+}
+
