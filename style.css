@@ -7,11 +7,37 @@
   background-blend-mode: saturation;
   color: #39FF14
 }
+@keyframes rainbow {
+  0% {
+    background-color: violet;
+  }
+  14% {
+    background-color: red;
+  }
+  28% {
+    background-color: orange;
+  }
+  42% {
+    background-color: yellow;
+  }
+  56% {
+    background-color: green;
+  }
+  70% {
+    background-color: blue;
+  }
+  84% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}
 #nav{
+  animation: rainbow 10s linear infinite;
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background-color: black;
   color: white;
 
 }
